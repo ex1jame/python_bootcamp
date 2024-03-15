@@ -1,0 +1,23 @@
+[
+    {
+        "model": "BMW",
+        "color": "White",
+        "brand": "Toyota",
+        "year": 2003,
+        "speed": 200
+    },
+    {
+        "model": "Toyota",
+        "color": "Red",
+        "brand": "Sivsa",
+        "year": 2021,
+        "speed": 150
+    },
+    {
+        "model": "Mers",
+        "color": "black",
+        "brand": "TLO",
+        "year": 2010,
+        "speed": 180
+    }
+]

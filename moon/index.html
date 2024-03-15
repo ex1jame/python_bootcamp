@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш заголовок</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header_title">MOON</h1>
+        <nav>
+            <!-- <a class="header_subtitle" href="#">Industial</a> -->
+            <a class="header_subtitle" href="#">Industial</a>
+            <a class="header_subtitle" href="#">Industial</a>
+            <a class="header_subtitle" href="#">Industial</a>
+            <a class="header_subtitle" href="#">Industial</a>
+        </nav>
+    </header>
+
+    <section>
+        <img src="./images/stars.png" alt="" class="" id="stars">
+        <img src="./images/moon.png" alt="" class="" id="moon">
+        <img src="./images/mountains_behind.png" alt="" class="" id="behind">
+        <h2 id="text">Moon Light</h2>
+        <a href="#" class="" id="btn">Explore</a>
+        <img src="./images/mountains_front.png" alt="" id="front">
+    </section>
+    <div class="sec" id="sec">  
+        <h2>Scrolling Effects</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Deleniti dolores aliquid vero. Laudantium a natus quisquam
+             dolore nihil architecto labore veniam possimus. Laborum amet 
+             officiis nihil cum nisi itaque praesentium? <br><br>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Deleniti dolores aliquid vero. Laudantium a natus quisquam
+              dolore nihil architecto labore veniam possimus. Laborum amet 
+              officiis nihil cum nisi itaque praesentium? <br><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Deleniti dolores aliquid vero. Laudantium a natus quisquam
+               dolore nihil architecto labore veniam possimus. Laborum amet 
+               officiis nihil cum nisi itaque praesentium? <br><br>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Deleniti dolores aliquid vero. Laudantium a natus quisquam
+                dolore nihil architecto labore veniam possimus. Laborum amet 
+                officiis nihil cum nisi itaque praesentium? <br><br>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deleniti dolores aliquid vero. Laudantium a natus quisquam
+                 dolore nihil architecto labore veniam possimus. Laborum amet 
+                 officiis nihil cum nisi itaque praesentium? <br><br>
+
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Deleniti dolores aliquid vero. Laudantium a natus quisquam
+                  dolore nihil architecto labore veniam possimus. Laborum amet 
+                  officiis nihil cum nisi itaque praesentium? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Deleniti dolores aliquid vero. Laudantium a natus quisquam
+                   dolore nihil architecto labore veniam possimus. Laborum amet 
+                   officiis nihil cum nisi itaque praesentium? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Deleniti dolores aliquid vero. Laudantium a natus quisquam
+                    dolore nihil architecto labore veniam possimus. Laborum amet 
+                    officiis nihil cum nisi itaque praesentium? <br><br>
+        </p>
+    </div>
+    <script>
+        let starts = document.getElementById('stars')
+        let moon = document.getElementById('moon')
+        let behind = document.getElementById('behind')
+        let front = document.getElementById('front')
+        let text = document.getElementById('text')
+        let btn = document.getElementById('btn')
+        let header = document.querySelector('header')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px'
+            moon.style.top = value * 1.05 + 'px'
+            behind.style.top = value * 0.3 + 'px'
+            front.style.top = value * 0.5 + 'px'
+            text.style.marginRight = value * 4 + 'px'
+            text.style.marginTop = value * 1.5 + 'px'
+            btn.style.marginTop = value * 1.5 + 'px'
+            header.style.top = value * 1 + 'px'
+        })
+    </script>
+
+</body>
+</html>

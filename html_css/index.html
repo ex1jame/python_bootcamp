@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Html tags and css properties</title>
+  </head>
+  <body>
+    <!-- Чтобы строка не выходила за границы: option + z (mac), alt + z (windows)  -->
+
+    <!-- 1. Создать все виды заголовков с текстом "Hello world" c классом "heading". -->
+    <h1 class="heading" id="heading-1">a</h1>
+    <h2 class="heading" id="heading-2">s</h2>
+    <h3 class="heading" id="heading-3">asd</h3>
+    <h4 class="heading" id="heading-4">fdsg</h4>
+    <h5 class="heading" id="heading-5">ghfg</h5>
+    <style>
+        .heading{
+            color: red;
+        }
+        #heading-2{
+            color: blue;
+        }
+        #heading-3{
+            background-color: black;
+        }
+        #heading-4{
+            border-radius: 10px;
+            border: 1px solid #000000
+        }
+        #heading-5:hover{
+            transition: 2s;
+            background-color: yellow;
+
+        }
+        .container {
+            text-align: center;
+        }
+
+        .numbered-list {
+            list-style-type: decimal;
+        }
+
+        .marked-list {
+            list-style-type: square;
+        }
+
+        .colored-block {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 10px;
+            display: inline-block;
+        }
+        
+    </style>
+    <input type="text" class="">
+    <input type="image" class="">
+    <input type="password" class="">
+    <input type="date" class="">
+    <input type="search" class="">
+    <input type="email" class="">
+    <div class="container"> <ol class="numbered-list">
+        <li>Нумерованный</li>
+        <li>Нумерованный</li>
+        <li>Нумерованный</li>
+        <li>Нумерованный</li>
+    </ol>
+    <ul class="marked-list">
+        <li>Маркированный</li>
+        <li>Маркированный</li>
+        <li>Маркированный</li>
+        <li>Маркированный</li>
+    </ul>
+    <div class="colored-block">1</div>
+        <div class="colored-block">2</div>
+        <div class="colored-block">3</div>
+        <div class="colored-block">4</div>
+        <div class="colored-block">5</div>
+        <div class="colored-block">6</div>
+    </div>
+   
+
+    <p>asdfsafasfas</p>
+    <!-- 2. Каждому заголовку также дать id (к прим. heading-1, heading-2...) -->
+
+    <!-- 3. Задать всем заголовкам цвет текста на красный -->
+    <!-- 4. Второму заголовку синий -->
+    <!-- 5. Третьему заголовку поменять задний фон на чёрный -->
+    <!-- 6. Четвертому заголовку сделать border и округлить углы -->
+    <!-- 7. Пятому заголовку создать :hover эффект (любой) -->
+
+    <!-- 8. Создайте 6 input с разными типами. -->
+
+    <!-- 9. Создать нумерованный список из 4 элементов с текстом “Нумерованный”. -->
+
+    <!-- 10. Создать маркированный список из 4 элементов с текстом “Маркированный” и квадратным маркером. -->
+
+    <!-- 13. Создать 6 блоков с нумерацией и такими параметрами (ширина 100px и высота 100px, зеленого цвета , внешним отступом 10px). Их родительским элементом должен быть container. -->
+    <!-- 14. Поставить все блоки по центру страницы. -->
+  </body>
+</html>
